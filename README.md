@@ -1,28 +1,35 @@
-# Analyse EdTech – Expansion Internationale
+# Projet 3 - Prédiction de la consommation énergétique des bâtiments de Seattle
 
 ## Contexte
-Projet réalisé dans le cadre de la formation Data Scientist (OpenClassrooms).
+
+Ce projet est réalisé dans le cadre de la formation Data Scientist d'OpenClassrooms.
+
+La ville de Seattle souhaite atteindre la neutralité carbone d'ici 2050. L'objectif est de prédire la consommation énergétique des bâtiments non résidentiels à partir de leurs caractéristiques.
 
 ## Objectifs
-Identifier les pays les plus pertinents pour une expansion EdTech.
 
-## Données
-Données éducatives, économiques et d'accès Internet.
+- Réaliser une analyse exploratoire des données.
+- Préparer les données pour la modélisation.
+- Comparer plusieurs modèles supervisés.
+- Optimiser le meilleur modèle et interpréter ses performances.
 
-## Technologies
-Python, Pandas, Matplotlib, Jupyter
+## Structure du projet
+data/
+├── 2016_Building_Energy_Benchmarking.csv
+└── processed/
+└── buildings_clean.csv
 
-## Structure
-- data/
-- notebooks/
-- README.md
+notebooks/
+├── P3_E1_Analyse_Exploratoire.ipynb
+└── P3_E2_Modélisation.ipynb
 
-## Résultats
-Analyse des marchés et recommandations stratégiques.
 
-## Lancement
-git clone https://github.com/rafadmgs/datascientist_projet_2.git
+## Technologies utilisées
 
-## Auteur
-Rafael Domingos DA SILVA
-
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Poetry
