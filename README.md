@@ -14,15 +14,26 @@ La ville de Seattle souhaite atteindre la neutralité carbone d'ici 2050. L'obje
 - Optimiser le meilleur modèle et interpréter ses performances.
 
 ## Structure du projet
-data/
-├── 2016_Building_Energy_Benchmarking.csv
-└── processed/
-└── buildings_clean.csv
 
-notebooks/
-├── P3_E1_Analyse_Exploratoire.ipynb
-└── P3_E2_Modélisation.ipynb
-
+```text
+project_3/
+│
+├── data/
+│   ├── 2016_Building_Energy_Benchmarking.csv
+│   └── processed/
+│       └── buildings_clean.csv
+│
+├── notebooks/
+│   ├── P3_E1_prédiction_Seattle_Analyse_Exploratoire.ipynb
+│   └── P3_E2_prédiction_Seattle_Modelisation.ipynb
+│
+├── outputs/
+│
+├── pyproject.toml
+├── poetry.lock
+├── README.md
+└── .gitignore
+```
 
 ## Technologies utilisées
 
