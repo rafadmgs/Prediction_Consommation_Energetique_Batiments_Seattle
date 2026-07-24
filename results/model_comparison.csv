@@ -1,0 +1,5 @@
+Modèle,R²,MAE,RMSE
+Random Forest,0.807,2 842 265,5 931 610
+Régression Linéaire,0.675,4 602 893,7 699 564
+DummyRegressor,-0.003,7 535 942,13 515 706
+Support Vector Regression,-0.108,5 815 624,14 203 789
