@@ -700,25 +700,25 @@ a.param-doc-link::before {
                                  Pipeline(steps=[(&#x27;imputer&#x27;,
                                                   SimpleImputer(strategy=&#x27;median&#x27;)),
                                                  (&#x27;scaler&#x27;, StandardScaler())]),
-                                 [&#x27;osebuildingid&#x27;, &#x27;datayear&#x27;, &#x27;zipcode&#x27;,
-                                  &#x27;councildistrictcode&#x27;, &#x27;latitude&#x27;,
-                                  &#x27;longitude&#x27;, &#x27;numberofbuildings&#x27;,
-                                  &#x27;numberoffloors&#x27;, &#x27;propertygfatotal&#x27;,
-                                  &#x27;propertygfaparking&#x27;,
-                                  &#x27;propertygfabuilding(s)&#x27;,
-                                  &#x27;largestpropertyusetypegfa&#x27;,
-                                  &#x27;second...
-                                (&#x27;cat&#x27;,
-                                 Pipeline(steps=[(&#x27;imputer&#x27;,
+                                 [&#x27;OSEBuildingID&#x27;, &#x27;DataYear&#x27;, &#x27;ZipCode&#x27;,
+                                  &#x27;CouncilDistrictCode&#x27;, &#x27;Latitude&#x27;,
+                                  &#x27;Longitude&#x27;, &#x27;NumberofBuildings&#x27;,
+                                  &#x27;NumberofFloors&#x27;, &#x27;PropertyGFATotal&#x27;,
+                                  &#x27;PropertyGFAParking&#x27;,
+                                  &#x27;PropertyGFABuilding(s)&#x27;,
+                                  &#x27;LargestPropertyUseTypeGFA&#x27;,
+                                  &#x27;Second...
                                                   SimpleImputer(strategy=&#x27;most_frequent&#x27;)),
                                                  (&#x27;encoder&#x27;,
                                                   OneHotEncoder(handle_unknown=&#x27;ignore&#x27;))]),
-                                 [&#x27;buildingtype&#x27;, &#x27;primarypropertytype&#x27;,
-                                  &#x27;propertyname&#x27;, &#x27;address&#x27;, &#x27;city&#x27;, &#x27;state&#x27;,
-                                  &#x27;taxparcelidentificationnumber&#x27;,
-                                  &#x27;neighborhood&#x27;, &#x27;largestpropertyusetype&#x27;,
-                                  &#x27;secondlargestpropertyusetype&#x27;,
-                                  &#x27;thirdlargestpropertyusetype&#x27;,
+                                 [&#x27;BuildingType&#x27;, &#x27;PrimaryPropertyType&#x27;,
+                                  &#x27;PropertyName&#x27;, &#x27;Address&#x27;, &#x27;City&#x27;, &#x27;State&#x27;,
+                                  &#x27;TaxParcelIdentificationNumber&#x27;,
+                                  &#x27;Neighborhood&#x27;, &#x27;LargestPropertyUseType&#x27;,
+                                  &#x27;SecondLargestPropertyUseType&#x27;,
+                                  &#x27;ThirdLargestPropertyUseType&#x27;,
+                                  &#x27;YearsENERGYSTARCertified&#x27;,
+                                  &#x27;ComplianceStatus&#x27;, &#x27;Outlier&#x27;,
                                   &#x27;usage_type&#x27;])])</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item sk-dashed-wrapped"><div class="sk-label-container"><div class="sk-label  sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually sk-global" id="sk-estimator-id-8" type="checkbox" ><label for="sk-estimator-id-8" class="sk-toggleable__label  sk-toggleable__label-arrow"><div><div>ColumnTransformer</div></div><div><a class="sk-estimator-doc-link " rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.9/modules/generated/sklearn.compose.ColumnTransformer.html">?<span>Documentation for ColumnTransformer</span></a><span class="sk-estimator-doc-link ">i<span>Not fitted</span></span></div></label><div class="sk-toggleable__content " data-param-prefix="">
         <div class="estimator-table">
             <details>
@@ -862,7 +862,7 @@ a.param-doc-link::before {
                 </table>
             </details>
         </div>
-    </div></div></div><div class="sk-parallel"><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label  sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually sk-global" id="sk-estimator-id-9" type="checkbox" ><label for="sk-estimator-id-9" class="sk-toggleable__label  sk-toggleable__label-arrow"><div><div>num</div></div></label><div class="sk-toggleable__content " data-param-prefix="num__"><pre>[&#x27;osebuildingid&#x27;, &#x27;datayear&#x27;, &#x27;zipcode&#x27;, &#x27;councildistrictcode&#x27;, &#x27;latitude&#x27;, &#x27;longitude&#x27;, &#x27;numberofbuildings&#x27;, &#x27;numberoffloors&#x27;, &#x27;propertygfatotal&#x27;, &#x27;propertygfaparking&#x27;, &#x27;propertygfabuilding(s)&#x27;, &#x27;largestpropertyusetypegfa&#x27;, &#x27;secondlargestpropertyusetypegfa&#x27;, &#x27;thirdlargestpropertyusetypegfa&#x27;, &#x27;comments&#x27;, &#x27;BuildingAge&#x27;, &#x27;ParkingRatio&#x27;, &#x27;BuildingRatio&#x27;, &#x27;IsMultiUse&#x27;, &#x27;NumberPropertyUses&#x27;]</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-serial"><div class="sk-item"><div class="sk-estimator  sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually sk-global" id="sk-estimator-id-10" type="checkbox" ><label for="sk-estimator-id-10" class="sk-toggleable__label  sk-toggleable__label-arrow"><div><div>SimpleImputer</div></div><div><a class="sk-estimator-doc-link " rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.9/modules/generated/sklearn.impute.SimpleImputer.html">?<span>Documentation for SimpleImputer</span></a></div></label><div class="sk-toggleable__content " data-param-prefix="num__imputer__">
+    </div></div></div><div class="sk-parallel"><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label  sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually sk-global" id="sk-estimator-id-9" type="checkbox" ><label for="sk-estimator-id-9" class="sk-toggleable__label  sk-toggleable__label-arrow"><div><div>num</div></div></label><div class="sk-toggleable__content " data-param-prefix="num__"><pre>[&#x27;OSEBuildingID&#x27;, &#x27;DataYear&#x27;, &#x27;ZipCode&#x27;, &#x27;CouncilDistrictCode&#x27;, &#x27;Latitude&#x27;, &#x27;Longitude&#x27;, &#x27;NumberofBuildings&#x27;, &#x27;NumberofFloors&#x27;, &#x27;PropertyGFATotal&#x27;, &#x27;PropertyGFAParking&#x27;, &#x27;PropertyGFABuilding(s)&#x27;, &#x27;LargestPropertyUseTypeGFA&#x27;, &#x27;SecondLargestPropertyUseTypeGFA&#x27;, &#x27;ThirdLargestPropertyUseTypeGFA&#x27;, &#x27;BuildingAge&#x27;, &#x27;BuildingRatio&#x27;, &#x27;IsMultiUse&#x27;, &#x27;NumberPropertyUses&#x27;]</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-serial"><div class="sk-item"><div class="sk-estimator  sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually sk-global" id="sk-estimator-id-10" type="checkbox" ><label for="sk-estimator-id-10" class="sk-toggleable__label  sk-toggleable__label-arrow"><div><div>SimpleImputer</div></div><div><a class="sk-estimator-doc-link " rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.9/modules/generated/sklearn.impute.SimpleImputer.html">?<span>Documentation for SimpleImputer</span></a></div></label><div class="sk-toggleable__content " data-param-prefix="num__imputer__">
         <div class="estimator-table">
             <details>
                 <summary>Parameters</summary>
@@ -1053,7 +1053,7 @@ a.param-doc-link::before {
                 </table>
             </details>
         </div>
-    </div></div></div></div></div></div></div></div><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label  sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually sk-global" id="sk-estimator-id-12" type="checkbox" ><label for="sk-estimator-id-12" class="sk-toggleable__label  sk-toggleable__label-arrow"><div><div>cat</div></div></label><div class="sk-toggleable__content " data-param-prefix="cat__"><pre>[&#x27;buildingtype&#x27;, &#x27;primarypropertytype&#x27;, &#x27;propertyname&#x27;, &#x27;address&#x27;, &#x27;city&#x27;, &#x27;state&#x27;, &#x27;taxparcelidentificationnumber&#x27;, &#x27;neighborhood&#x27;, &#x27;largestpropertyusetype&#x27;, &#x27;secondlargestpropertyusetype&#x27;, &#x27;thirdlargestpropertyusetype&#x27;, &#x27;usage_type&#x27;]</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-serial"><div class="sk-item"><div class="sk-estimator  sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually sk-global" id="sk-estimator-id-13" type="checkbox" ><label for="sk-estimator-id-13" class="sk-toggleable__label  sk-toggleable__label-arrow"><div><div>SimpleImputer</div></div><div><a class="sk-estimator-doc-link " rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.9/modules/generated/sklearn.impute.SimpleImputer.html">?<span>Documentation for SimpleImputer</span></a></div></label><div class="sk-toggleable__content " data-param-prefix="cat__imputer__">
+    </div></div></div></div></div></div></div></div><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label  sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually sk-global" id="sk-estimator-id-12" type="checkbox" ><label for="sk-estimator-id-12" class="sk-toggleable__label  sk-toggleable__label-arrow"><div><div>cat</div></div></label><div class="sk-toggleable__content " data-param-prefix="cat__"><pre>[&#x27;BuildingType&#x27;, &#x27;PrimaryPropertyType&#x27;, &#x27;PropertyName&#x27;, &#x27;Address&#x27;, &#x27;City&#x27;, &#x27;State&#x27;, &#x27;TaxParcelIdentificationNumber&#x27;, &#x27;Neighborhood&#x27;, &#x27;LargestPropertyUseType&#x27;, &#x27;SecondLargestPropertyUseType&#x27;, &#x27;ThirdLargestPropertyUseType&#x27;, &#x27;YearsENERGYSTARCertified&#x27;, &#x27;ComplianceStatus&#x27;, &#x27;Outlier&#x27;, &#x27;usage_type&#x27;]</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-serial"><div class="sk-item"><div class="sk-estimator  sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually sk-global" id="sk-estimator-id-13" type="checkbox" ><label for="sk-estimator-id-13" class="sk-toggleable__label  sk-toggleable__label-arrow"><div><div>SimpleImputer</div></div><div><a class="sk-estimator-doc-link " rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.9/modules/generated/sklearn.impute.SimpleImputer.html">?<span>Documentation for SimpleImputer</span></a></div></label><div class="sk-toggleable__content " data-param-prefix="cat__imputer__">
         <div class="estimator-table">
             <details>
                 <summary>Parameters</summary>
